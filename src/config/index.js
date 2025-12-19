@@ -15,7 +15,7 @@ export const config = {
 
     // 跨域配置
     cors: {
-        origin: process.env.CORS_ORIGIN || 'http://localhost:5173',
+        origin: '*', // 允许所有域名跨域访问
         credentials: true
     },
 
